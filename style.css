@@ -2,9 +2,18 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 20px;
+}
 body{
     font-family: 'Times New Roman';
     line-height: 1.8;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
 }
 .top {
     display: flex;
